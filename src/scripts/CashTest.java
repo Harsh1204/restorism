@@ -10,7 +10,7 @@ public class CashTest extends BaseTest {
 
 
 		System.out.println("ashish");
-		System.out.println("kkr");
+	
 		
 
 	}
