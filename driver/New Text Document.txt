@@ -1,0 +1,20 @@
+webdriver.ie.driver
+InternetExplorerDriver
+String operaChromiumDriver = "E:\\Drivers\\operadriver.exe";
+String operaBrowserLocation = "C:\\......\\opera.exe"
+
+System.setProperty("webdriver.opera.driver", operaChromiumDriver);
+
+ChromeOptions options = new ChromeOptions();
+options.setBinary(operaBrowserLocation);        
+
+DesiredCapabilities capabilities = new DesiredCapabilities();
+capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+OperaDriver browser = new OperaDriver(capabilities);
+
+WebDriver driver =browser;
+driver.get("https://in.yahoo.com/");
+
+
+System.setProperty("webdriver.safari.driver","C:/safaridriver.exe")
+WebDriver driver = new SafariDriver();
