@@ -8,7 +8,7 @@ public class CashTest extends BaseTest {
 	@Test
 	public void cashtest() {
 		
-		
+		Syso("ashsih");
 	}
 
 }
